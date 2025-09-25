@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ModeToggle } from "./ui/ModeToggle";
+import { ModeToggle } from "./ModeToggle";
 import { CodeIcon } from "lucide-react";
 import { SignedIn, UserButton } from "@clerk/nextjs";
 import DashboardBtn from "./DashboardBtn";
