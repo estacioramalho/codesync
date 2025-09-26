@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Interview Platform 💻
 
-## Getting Started
+A technical interview platform for scheduling interviews, live video calls, collaborative coding, comments & ratings, and recordings.
 
-First, run the development server:
+## 🧑‍💻 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Language: TypeScript
+- Frontend: Next.js (App Router), React, Tailwind CSS, shadcn/ui (Radix UI), next-themes, react-hot-toast, Monaco Editor
+- Backend: Convex (database + functions), Clerk (auth), Stream Video (calls & recordings)
+- Dev Tools: ESLint, PostCSS, Convex CLI
+- Deployment: Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Real-Time Interviews: Live video meetings with grid/speaker layouts.
+- Collaborative Code Editor: Monaco-based editor with JS/Python/Java.
+- Scheduling: Plan interviews with candidates and interviewers.
+- User Authentication: Secure auth via Clerk.
+- Role-Based Dashboard: Manage interviews and outcomes.
+- Comments & Ratings: Leave feedback after interviews.
+- Recordings: View past interview recordings.
+- Responsive UI: Mobile-friendly design with Tailwind CSS.
+- Theme Support: Light/dark mode via next-themes.
+- Toast Notifications: Instant feedback for actions.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Clerk Authentication**
+![Clerk Authentication](screenshots/ClerkAuthentication.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Interviewer Dashboard**
+![Interviewer Dashboard](screenshots/InterviewerDashboard.png)
 
-## Deploy on Vercel
+**Schedule Interview**
+![Schedule Interview](screenshots/Schedule.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Interview Setup**
+![Interview Setup](screenshots/InterviewSetup.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Interview Room**
+![Interview Room](screenshots/InterviewRoom.png)
+
+**Interview Comments**
+![Interview Comments](screenshots/InterviewComments.png)
+
+**Recordings**
+![Recordings](screenshots/Recordings.png)
+
+**Convex Database**
+![Convex Database](screenshots/ConvexDatabase.png)
+
+**Vercel Deployment**
+![Vercel Deployment](screenshots/VercelDeployment.png)
