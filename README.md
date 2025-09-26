@@ -30,28 +30,37 @@ A technical interview platform for scheduling interviews, live video calls, coll
 ## 🚀 Screenshots
 
 **Clerk Authentication**
+
 ![Clerk Authentication](screenshots/ClerkAuthentication.png)
 
 **Interviewer Dashboard**
+
 ![Interviewer Dashboard](screenshots/InterviewerDashboard.png)
 
 **Schedule Interview**
+
 ![Schedule Interview](screenshots/Schedule.png)
 
 **Interview Setup**
+
 ![Interview Setup](screenshots/InterviewSetup.png)
 
 **Interview Room**
+
 ![Interview Room](screenshots/InterviewRoom.png)
 
 **Interview Comments**
+
 ![Interview Comments](screenshots/InterviewComments.png)
 
 **Recordings**
+
 ![Recordings](screenshots/Recordings.png)
 
 **Convex Database**
+
 ![Convex Database](screenshots/ConvexDatabase.png)
 
 **Vercel Deployment**
+
 ![Vercel Deployment](screenshots/VercelDeployment.png)
