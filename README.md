@@ -5,8 +5,8 @@ A technical interview platform for scheduling interviews, live video calls, coll
 ## 🧑‍💻 Tech Stack
 
 - Language: TypeScript
-- Frontend: Next.js (App Router), React, Tailwind CSS, shadcn/ui (Radix UI), next-themes, react-hot-toast, Monaco Editor
-- Backend: Convex (database + functions), Clerk (auth), Stream Video (calls & recordings)
+- Frontend: Next.js, Tailwind CSS, shadcn/ui (Radix UI), next-themes, react-hot-toast, Monaco Editor
+- Backend: Convex, Clerk, Stream Video
 - Dev Tools: ESLint, PostCSS, Convex CLI
 - Deployment: Vercel
 
